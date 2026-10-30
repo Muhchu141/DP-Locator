@@ -9,7 +9,7 @@ logging.basicConfig(
     level=logging.INFO
 )
 
-TOKEN = os.getenv("8323610116:AAENqYH4CD3onvJWHMN2Xs60e-uVDNpFZ1w")
+TOKEN = os.getenv("8323610116:AAHHQzQBBnc4SGOuGehcAOJd6HuZyVumZvU")
 
 if not TOKEN:
     raise RuntimeError("TELEGRAM_BOT_TOKEN is not set. Add it to your environment.")
