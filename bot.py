@@ -11,8 +11,6 @@ logging.basicConfig(
 
 TOKEN = os.getenv("8323610116:AAHHQzQBBnc4SGOuGehcAOJd6HuZyVumZvU")
 
-if not TOKEN:
-    raise RuntimeError("TELEGRAM_BOT_TOKEN is not set. Add it to your environment.")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
